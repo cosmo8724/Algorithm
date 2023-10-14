@@ -33,7 +33,7 @@
 
 /.vs
 /BackJoon/**
-!/BackJoon/Solved
+!/BackJoon/Solved/*
 Debug
 *.sln
 *.pdb
