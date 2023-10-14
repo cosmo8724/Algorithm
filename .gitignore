@@ -32,8 +32,8 @@
 *.app
 
 /.vs
-/BackJoon/**
-!/BackJoon/Solved/*
+BackJoon/**
+!BackJoon/Solved/*.cpp
 Debug
 *.sln
 *.pdb
