@@ -32,7 +32,7 @@
 *.app
 
 /.vs
-/BackJoon
+/BackJoon/**
 !/BackJoon/Solved
 Debug
 *.sln
