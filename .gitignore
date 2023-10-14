@@ -33,8 +33,8 @@
 
 /.vs
 BackJoon/BackJoon/**
-BackJoon/BackJoon/CodingTest/
-BackJoon/BackJoon/BaseAlgorithm/
+BackJoon/CodingTest/*.cpp
+BackJoon/BaseAlgorithm/*.cpp
 !BackJoon/BackJoon/Solved/*.cpp
 Debug
 *.sln
