@@ -801,8 +801,23 @@
     <ClCompile Include="1786_KMP O.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
-    <ClCompile Include="1701_KMP.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="1701_KMP O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="14517_Palindrome O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\1010_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\2805_2ptr O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\9625_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="17020_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
