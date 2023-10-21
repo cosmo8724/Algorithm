@@ -819,5 +819,11 @@
     <ClCompile Include="17020_dp O.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="Solved\10826_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\9655_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
