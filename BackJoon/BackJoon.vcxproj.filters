@@ -888,5 +888,14 @@
     <ClCompile Include="Solved\11266_CutComp O.cpp">
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
+    <ClCompile Include="Solvoed\14425_Trie O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvoed\2193_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvoed\1788_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
