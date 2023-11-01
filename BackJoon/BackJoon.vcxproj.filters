@@ -898,7 +898,22 @@
       <Filter>소스 파일\Solved</Filter>
     </ClCompile>
     <ClCompile Include="Solved\6571_dp O.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\6571_dp_noTMP O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\9657_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\9711_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\8394_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\9095_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

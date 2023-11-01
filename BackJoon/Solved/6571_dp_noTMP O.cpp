@@ -4,10 +4,12 @@
 
 using namespace std;
 
-template<typename T>
-concept String = is_convertible_v<T, string>;
+/* Global Section */
+const int MAX_N{ 1'000 };
+string a, b;
+vector<string> dp;
 
-constexpr string NumString_ADD(string strA, string strB)
+string NumString_ADD(string strA, string strB)
 {
 	reverse(begin(strA), end(strA));
 	reverse(begin(strB), end(strB));
@@ -31,40 +33,37 @@ constexpr string NumString_ADD(string strA, string strB)
 	return ret;
 }
 
-template<typename T, size_t N> requires String<T>
-constexpr vector<string> Make_DP()
+vector<string> Make_DP()
 {
-	vector<string> ret(N + 1);
+	vector<string> ret(MAX_N + 1);
+	ret[0] = "0";
 	ret[1] = "1";
 	ret[2] = "2";
 
-	for (size_t i{ 3 }; i <= N; ++i) {
+	for (size_t i{ 3 }; i <= MAX_N; ++i) {
 		ret[i] = NumString_ADD(ret[i - 1], ret[i - 2]);
 	}
 
 	return ret;
 }
 
-bool NumString_LESS(string_view svA, string_view svB)
+bool NumString_LESSEQUEL(const string& strA, const string& strB)
 {
-	if (svA.size() == svB.size()) { return svA < svB; }
-	else { return svA.size() < svB.size(); }
+	if (strA.size() == strB.size()) { return strA < strB; }
+	else { return strA.size() < strB.size(); }
 }
-
-/* Global Section */
-const int MAX_N{ 1'000 };
-string a, b;
-vector<string> dp{ Make_DP<string, MAX_N>() };
 
 /* Main */
 int main()
 {
+	Make_DP().swap(dp);
+
 	while (true) {
 		cin >> a >> b;
 		if (a == "0" && b == "0") { break; }
 
-		const auto it_from{ lower_bound(begin(dp), end(dp), a, NumString_LESS) };
-		const auto it_to{ lower_bound(begin(dp), end(dp), b, NumString_LESS) };
+		const auto it_from{ lower_bound(begin(dp) + 1, end(dp), a, NumString_LESSEQUEL) };
+		const auto it_to{ upper_bound(it_from, end(dp), b, NumString_LESSEQUEL) };
 
 		cout << distance(it_from, it_to) << '\n';
 	}
