@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\Algorithm">
       <UniqueIdentifier>{e5aa39a8-3bc5-419d-bcda-be8372b65d34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\I_Dont_Know">
+      <UniqueIdentifier>{aad454c7-2c0d-4d4a-aa03-5f69536e8861}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Solved\458_Bipartite Maching O.cpp">
@@ -941,6 +944,21 @@
     </ClCompile>
     <ClCompile Include="Solved\17212_dp O.cpp">
       <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\7432_Trie O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\25418_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\1699_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\27446_dp X.cpp">
+      <Filter>소스 파일\I_Dont_Know</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\26163_dp X.cpp">
+      <Filter>소스 파일\I_Dont_Know</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
