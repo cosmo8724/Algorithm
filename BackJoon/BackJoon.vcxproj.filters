@@ -960,5 +960,17 @@
     <ClCompile Include="Solved\26163_dp X.cpp">
       <Filter>소스 파일\I_Dont_Know</Filter>
     </ClCompile>
+    <ClCompile Include="Solved\13334_LineSweeping O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\1793_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\1965_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="Solved\2876_dp O.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
